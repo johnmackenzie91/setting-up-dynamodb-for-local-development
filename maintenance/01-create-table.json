@@ -1,0 +1,15 @@
+{
+  "TableName": "football-results",
+  "KeySchema": [
+    { "AttributeName": "partition_key", "KeyType": "HASH" },
+    { "AttributeName": "sort_key", "KeyType": "RANGE" }
+  ],
+  "AttributeDefinitions": [
+    { "AttributeName": "partition_key", "AttributeType": "S" },
+    { "AttributeName": "sort_key", "AttributeType": "S" }
+  ],
+  "ProvisionedThroughput": {
+    "ReadCapacityUnits": 5,
+    "WriteCapacityUnits": 5
+  }
+}

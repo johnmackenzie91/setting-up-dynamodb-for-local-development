@@ -1,0 +1,10 @@
+﻿Partition Key,Sort Key,Attributes
+english-premier-league,team-bcdd89aa-6785-4570-b4e7-605f667367c7,"{ ""name"": ""Newcastle United"" }"
+english-premier-league,team-54daa00f-323b-4502-9d64-74236ff2e52e,"{ ""name"": ""Manchester United"" }"
+english-premier-league,team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff,"{ ""name"": ""Tottenham Hotspurs"" }"
+english-premier-league,team-5f8f8424-b3b3-4c87-aa49-9de1fp5c81de,"{ ""name"": ""Chelsea Football Club"" }"
+english-premier-league,match-54daa00f-323b-4502-9d64-74236ff2e52e,"{ ""home"": ""team-bcdd89aa-6785-4570-b4e7-605f667367c7"", ""away"": ""team-54daa00f-323b-4502-9d64-74236ff2e52e"", ""home_score"": 1, ""away_score"": 0 }"
+english-premier-league,match-2fed9de2-96da-4ade-b6cb-22c06499451e,"{ ""home"": ""team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff"", ""away"": team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff"", ""home_score"": 3, ""away_score"": 0 }"
+english-premier-league,match-2fed9de2-96da-4ade-b6cb-22c06499451e,"{ ""home"": ""team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff"", ""away"": team-bcdd89aa-6785-4570-b4e7-605f667367c7"", ""home_score"": 3, ""away_score"": 0 }"
+english-premier-league,match-54daa00f-323b-4502-9d64-74236ff2e52e,"{ ""home"": ""team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff"", ""away"": team-54daa00f-323b-4502-9d64-74236ff2e52e"", ""home_score"": 2, ""away_score"": 1 }"
+english-premier-league,info-cea0fab6-e019-4013-909d-bc85e380035b,"{ ""name"": ""info-cea0fab6-e019-4013-909d-bc85e380035b"", ""country"": ""United Kingdom"" }"

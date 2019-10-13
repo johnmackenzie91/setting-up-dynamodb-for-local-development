@@ -1,0 +1,178 @@
+{
+  "football-results": [
+    {
+      "PutRequest": {
+        "Item": {
+          "partition_key": {
+            "S": "english-premier-league"
+          },
+          "sort_key": {
+            "S": "team-bcdd89aa-6785-4570-b4e7-605f667367c7"
+          },
+          "name": {
+            "S": "Newcastle United"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "partition_key": {
+            "S": "english-premier-league"
+          },
+          "sort_key": {
+            "S": "54daa00f-323b-3916-9d64-74236ff2e32z"
+          },
+          "name": {
+            "S": "Manchester United"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "partition_key": {
+            "S": "english-premier-league"
+          },
+          "sort_key": {
+            "S": "team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff"
+          },
+          "name": {
+            "S": "Tottenham Hotspurs"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "partition_key": {
+            "S": "english-premier-league"
+          },
+          "sort_key": {
+            "S": "team-5f8f8424-b3b3-4c87-aa49-9de1fp5c81de"
+          },
+          "name": {
+            "S": "Chelsea Football Club"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "partition_key": {
+            "S": "english-premier-league"
+          },
+          "sort_key": {
+            "S": "match-54daa00f-323b-3916-9d64-74236ff2e28a"
+          },
+          "home": {
+            "S": "team-bcdd89aa-6785-4570-b4e7-605f667367c7"
+          },
+          "away": {
+            "S": "54daa00f-323b-3916-9d64-74236ff2e32z"
+          },
+          "home_score": {
+            "N": "1"
+          },
+          "away_score": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "partition_key": {
+            "S": "english-premier-league"
+          },
+          "sort_key": {
+            "S": "match-2fed9de2-96da-4ade-b6cb-22c06499451e"
+          },
+          "home": {
+            "S": "team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff"
+          },
+          "away": {
+            "S": "team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff"
+          },
+          "home_score": {
+            "N": "3"
+          },
+          "away_score": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "partition_key": {
+            "S": "english-premier-league"
+          },
+          "sort_key": {
+            "S": "match-2fed9de2-96da-4ade-b6cb-22c06499498t"
+          },
+          "home": {
+            "S": "team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff"
+          },
+          "away": {
+            "S": "team-bcdd89aa-6785-4570-b4e7-605f667367c7"
+          },
+          "home_score": {
+            "N": "3"
+          },
+          "away_score": {
+            "N": "0"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "partition_key": {
+            "S": "english-premier-league"
+          },
+          "sort_key": {
+            "S": "match-78daa00f-323b-3916-9d64-74236ff2e99p"
+          },
+          "home": {
+            "S": "team-5f8f8424-b3b3-4c87-aa49-9de1cd0c88ff"
+          },
+          "away": {
+            "S": "54daa00f-323b-3916-9d64-74236ff2e32z"
+          },
+          "home_score": {
+            "N": "2"
+          },
+          "away_score": {
+            "N": "1"
+          }
+        }
+      }
+    },
+    {
+      "PutRequest": {
+        "Item": {
+          "partition_key": {
+            "S": "english-premier-league"
+          },
+          "sort_key": {
+            "S": "info-cea0fab6-e019-4013-909d-bc85e380035b"
+          },
+          "name": {
+            "S": "English Premier League"
+          },
+          "country": {
+            "S": "United Kingdom"
+          }
+        }
+      }
+    }
+  ]
+}

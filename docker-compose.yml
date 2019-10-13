@@ -1,0 +1,16 @@
+version: "2"
+services:
+  dynamodb-example-db:
+    container_name: dynamodb-example-db
+    image: amazon/dynamodb-local
+    ports:
+      - "8000:8000"
+  dynamodb-example-app:
+    container_name: dynamodb-example-app
+    build: .
+    env_file:
+      - .env
+    depends_on:
+      - dynamodb-example-db
+    ports:
+      - "8081:3000"
